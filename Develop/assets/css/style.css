@@ -1,9 +1,11 @@
+ /* Universal Selector Definition */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+ /* Sets the background colour for the entire body section */
 body {
     background-color: #d9dcd6;
 }
@@ -32,24 +34,29 @@ body {
     font-size: 20px;
 }
 
+ /* Removes list item marking from the unordered list */
 .header section ul {
     list-style-type: none;
 }
 
+/* Sets items to display on the same line and sets margins size */
 .header ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Setting the default formatting of hyper links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Setting the default font size of a paragraph */
 p {
     font-size: 16px;
 }
 
+/* Defines the background image and its default values */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +66,29 @@ p {
     background-position: center;
 }
 
+/* Style setting for image to float to the left of text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Style setting for image to float to the right of text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Defines the elements within the section to use 75% of the 
+width of the screen and these elements to display as in line blocks
+ */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Defines the style for all the elements within the aside section so 
+that they can have a standard font, background colour etc */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +100,64 @@ p {
     background-color: #2589bd;
 }
 
+/* More specific styles for elements within the benifits section, in this case the lead element */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* More specific styles for elements within the benifits section, in this case the brand element */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* More specific styles for elements within the benifits section, in this case the cost element */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Style the h3 header for only this class*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Style the h3 header for only this class*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Style the h3 header for only this class*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Style the image for only this class*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Style the image for only this class*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Style the image for only this class*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Default style for the search engine optimization section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +167,7 @@ p {
     color: #ffffff;
 }
 
+/* Default style for the online reputation management section */ 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +177,7 @@ p {
     color: #ffffff;
 }
 
+/* Default style for the social media marketing section */ 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +187,40 @@ p {
     color: #ffffff;
 }
 
+/* Defines the max image height for an image only used in the search engine optimization class */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Defines the max image height for an image only used in the online reputation management class */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Defines the max image height for an image only used in the social media marketing class */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Defines the margin location and font size of a h2 header within the search engine optimisation class */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Defines the margin location and font size of a h2 header within the online reputation management class */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Defines the margin location and font size of a h2 header within the social media marketing class */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Defines the default style of the footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +228,7 @@ p {
     text-align: center;
 }
 
+/* Defines the header h2 font size within the footer class */
 .footer h2 {
     font-size: 20px;
 }
