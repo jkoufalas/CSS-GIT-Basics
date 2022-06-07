@@ -10,6 +10,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* The overall style for the header class
+provides its padding, font family, color and background color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,16 +19,21 @@ body {
     color: #ffffff;
 }
 
+/* Provides the style for h1 within the header class 
+   This makes sure that all heading elements are inline block and are the same size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This changes the font color of the text within the heading
+This is what gives the companies name the unique dual colour name*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header section {
+/* This provides the style to all the navigation elements within the header */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,12 +41,12 @@ body {
     font-size: 20px;
 }
 
- /* Removes list item marking from the unordered list */
-.header section ul {
+ /* Removes list item marking from the unordered list in the navigation menu in the header */
+.header nav ul {
     list-style-type: none;
 }
 
-/* Sets items to display on the same line and sets margins size */
+/* Sets items to display on the same line and sets margins size for list items in the unordered list inside the header */
 .header ul li {
     display: inline-block;
     margin-left: 25px;
