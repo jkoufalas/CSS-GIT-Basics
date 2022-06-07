@@ -49,4 +49,4 @@ https://jkoufalas.github.io/Assignment-1/index.html
 
 This image provides a sample of the completed website.
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/screenshot/Horiseon-Screenshot.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/screenshot/Horiseon-Screenshot.png)
