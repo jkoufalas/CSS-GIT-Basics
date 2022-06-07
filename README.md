@@ -26,10 +26,14 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 - What I learned from this assignment was.. 
+The purpose f this assignment was to implement the lessons from the first week of BootCamp which were the basics of html, css and how to implement and use github as a repository for your work.
+
+My main take aways from this assignment were as follows.
 ```
 To use Github as a repository.
 Semantic HTML elements
-Descripting and logical code
+CSS classes, their inheritance, working order and basic rules
+Descriptive and logical code
 The benifits of commenting code and repository commits
 Descriptive README files and their purpose
 ```
