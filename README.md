@@ -47,7 +47,7 @@ Descriptive README files and their purpose
 ## Link
 
 The link to the deployed website of the assignment is <br>
-https://jkoufalas.github.io/Assignment-1/index.html
+[https://jkoufalas.github.io/CSS-GIT-Basics/index.html](https://jkoufalas.github.io/CSS-GIT-Basics/index.html)
 
 ---
 ## Screenshot
