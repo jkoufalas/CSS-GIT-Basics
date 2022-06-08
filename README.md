@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 1 - CSS-GIT-Basics
 
 ## Description
 
